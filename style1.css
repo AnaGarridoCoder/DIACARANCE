@@ -35,9 +35,9 @@ body {
 
 .ofrecemos {
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
   font-size: large;
-  width: 100%;
-  height: 100%;
   font-weight: normal;
   row-gap: 5px;
 }
@@ -61,6 +61,7 @@ h2{
   font-size: x-large;
   font-weight: bold;
   color: white;
+ 
   
 }
 
@@ -83,7 +84,8 @@ h2{
   width:300px;
   height:300px;
   border-radius:160px;
-  border:5px solid white;
+  border:3px solid white; 
+  box-shadow: 5px 5px #5a6064;
 }
 
 .pilares {
