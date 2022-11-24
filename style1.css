@@ -61,8 +61,6 @@ h2{
   font-size: x-large;
   font-weight: bold;
   color: white;
- 
-  
 }
 
 #entendemos{
@@ -88,24 +86,47 @@ h2{
   box-shadow: 5px 5px #5a6064;
 }
 
-.pilares {
+.def-ia {
   text-align: center;
-  width: 100%;
-  margin: 2em auto;
-  height: 100%;
-  background-color: rgb(207,232,220);
-  border: 2px solid rgb(79,185,227);
+  font-size: x-large;
+  font-weight: normal;
   row-gap: 5px;
 }
 
-.def-ia {
-  text-align: center;
-  width: 100%;
-  margin: 2em auto;
-  height: 100%;
-  background-color: rgb(207,232,220); border: 2px solid rgb(79,185,227);
-  row-gap: 5px;
-}
+  h2{
+      text-align: center;
+      color: #066285;
+      text-transform: uppercase;
+      font-size: xx-large;
+  }
+    
+    p{
+      text-align: center;
+      padding-left: 150px;
+      padding-right: 150px;
+      font-size: large;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ventajas {
   text-align: center;
@@ -146,3 +167,4 @@ h2{
   border: 2px solid rgb(79,185,227);
   row-gap: 5px;
 }
+
