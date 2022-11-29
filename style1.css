@@ -18,7 +18,10 @@ body {
   font-weight: normal;
 }
 
-.banner {
+@media (min-width: 700px){
+
+
+  .banner {
   text-align: center;
   width: 100%;
   margin: 2em auto;
@@ -28,7 +31,7 @@ body {
   row-gap: 5px;
   }
 
-.menu {
+  .menu {
   text-align: center;
   width: 100%;
   margin: 2em auto;
@@ -38,97 +41,102 @@ body {
   row-gap: 5px;
 }
 
-.ofrecemos {
+  .ofrecemos {
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
   font-size: large;
   font-weight: normal;
   row-gap: 5px;
-}
-
-h2{
-    color: #066285;
-}
-
-#caja-azul-ofrecemos {
-  margin: 2em auto;
-  padding: 4%;
-  background-color: #066285; 
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  border: 2px solid rgb(79,185,227);
-  row-gap: 5px;
-}
-#estudiamos{
-  text-align: center;
-  text-transform: uppercase; 
-  font-size: x-large;
-  font-weight: bold;
-  color: white;
-}
-
-#entendemos{
-  text-align:center;
-  text-transform: uppercase;
-  font-size: x-large;
-  font-weight: bold;
-  color: white;
-}
-
-#productividad{
-  text-align: center;
-  text-transform: uppercase;
-  font-size: x-large;
-  font-weight: bold;
-  color: white;
-}
-#estudiamos img, #entendemos img, #productividad img{
-  width:300px;
-  height:300px;
-  border-radius:160px;
-  border:3px solid white; 
-  box-shadow: 5px 5px #5a6064;
-}
-
-.def-ia {
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: large;
-  font-weight: normal;
-  row-gap: 5px;
-}
-
-  h2{
-      text-align: center;
-      color: #066285;
-      text-transform: uppercase;
-      font-size: xx-large;
   }
 
-  
-.ventajas {
-  padding: 100px;
-  text-align: center;
-  border-radius: 10px;
-  background-color: #f5f5f5;
-  width: 85%;
-  height: 20%;
-  margin: 2em auto;
-  height: 100%;
-  border: 2px solid #066285;
-  row-gap: 5px;
+  h2{
+    color: #066285;
+  }
 
-}
+  #caja-azul-ofrecemos {
+    margin: 2em auto;
+    padding: 4%;
+   background-color: #066285; 
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+   border: 2px solid rgb(79,185,227);
+    row-gap: 5px;
+  }
+  #estudiamos{
+    text-align: center;
+   text-transform: uppercase; 
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+  }
+
+  #entendemos{
+    text-align:center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    }
+
+  #productividad{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+  }
+  #estudiamos img, #entendemos img, #productividad img{
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:3px solid white; 
+    box-shadow: 5px 5px #5a6064;
+  }
+
+  .def-ia {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: large;
+    font-weight: normal;
+    row-gap: 5px;
+  }
 
   h2{
+    text-align: center;
+    color: #066285;
+    text-transform: uppercase;
+    font-size: xx-large;
+  }
+
+
+  }
+  .ventajas{
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    width: 85%;
+    height: 20%;
+    margin: 2em auto;
+    height: 100%;
+    border: 2px solid #066285;
+    row-gap: 5px;
+    background-image: url("./IMÁGENES/ventajas\ clara.jpg");
+    background-size: 100%;
+    background-position: 100%;
+  }
+
+  .titulo-ventajas{
+    height: 80px;
     color: #066285;
     text-transform: uppercase;
     font-size: xx-large;
     font-weight: bold;
     text-align:center; 
-  }
+    }
+
 
   .contacto {
   text-align: center;
@@ -138,25 +146,25 @@ h2{
   background-color: rgb(207,232,220);
   border: 2px solid rgb(79,185,227);
   row-gap: 5px;
-}
+  }
 
-.empresas {
-  text-align: center;
-  width: 100%;
-  margin: 2em auto;
-  height: 100%;
-  background-color: rgb(207,232,220);
-  border: 2px solid rgb(79,185,227);
-  row-gap: 5px;
-}
+  .empresas {
+    text-align: center;
+    width: 100%;
+    margin: 2em auto;
+    height: 100%;
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+    row-gap: 5px;
+  }
 
-.footer {
-  text-align: center;
-  width: 100%;
-  margin: 2em auto;
-  height: 100%;
-  background-color: rgb(207,232,220);
-  border: 2px solid rgb(79,185,227);
-  row-gap: 5px;
-}
+  .footer {
+    text-align: center;
+    width: 100%;
+    margin: 2em auto;
+    height: 100%;
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+    row-gap: 5px;
+  }
 
